@@ -11,14 +11,12 @@ def canUnlockAll(boxes):
 
     # Set to keep track of opened boxes
     opened_boxes = {0}
-    
     # Set to keep track of keys that need to be explored
     keys_to_explore = set(boxes[0])
 
     # Iterate through keys to explore
     while keys_to_explore:
         key = keys_to_explore.pop()
-        
         # Check if the key opens a box
         if key < len(boxes) and key not in opened_boxes:
             opened_boxes.add(key)
