@@ -1,4 +1,4 @@
-#!/use/bin/python3
+#!/usr/bin/python3
 """Module containing the solution
 to the lockboxes algorithmic task
 """
@@ -16,4 +16,3 @@ def canUnlockAll(boxes) -> bool:
             if key in ranges:
                 opened_boxes.add(key)
     return len(opened_boxes) == len(boxes)
-
