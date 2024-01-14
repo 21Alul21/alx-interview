@@ -4,7 +4,7 @@ to the lockboxes algorithmic task
 """
 
 
-def canUnlockAll(boxes) -> bool:
+def canUnlockAll(boxes):
     """the method for the
     implementation
     """
