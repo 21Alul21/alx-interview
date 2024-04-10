@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
+
 def pascal_triangle(n):
     """ paschal triangle function """
 
+    if n <= 0:
+        return []
     pc = []
     for i in range(n):
         inner = []
