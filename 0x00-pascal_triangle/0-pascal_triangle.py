@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
-from typing import List
+#!/usr/bin/python3
 
-
-def paschal_triangle(n: int) -> List[List[int]]:
+def pascal_triangle(n):
     """ paschal triangle function """
 
     pc = []
@@ -20,3 +18,5 @@ def paschal_triangle(n: int) -> List[List[int]]:
                 count += 1
         pc.append(inner)
     return pc
+if __name__ == "__main__":
+    print(pascal_triangle(5))
