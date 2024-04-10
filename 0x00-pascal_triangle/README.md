@@ -1,0 +1,1 @@
+Paschal triangle algorithmic task
