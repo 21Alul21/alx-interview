@@ -18,5 +18,3 @@ def pascal_triangle(n):
                 count += 1
         pc.append(inner)
     return pc
-if __name__ == "__main__":
-    print(pascal_triangle(5))
