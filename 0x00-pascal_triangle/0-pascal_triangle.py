@@ -5,6 +5,7 @@ the paschal triangle is formed based on the
 number of input rows n
 """
 
+
 def pascal_triangle(n):
     """ paschal triangle function """
 
