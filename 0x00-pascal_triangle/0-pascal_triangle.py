@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-
+""" this module contains the solution
+to the paschal triangle using python,
+the paschal triangle is formed based on the
+number of input rows n
+"""
 
 def pascal_triangle(n):
     """ paschal triangle function """
