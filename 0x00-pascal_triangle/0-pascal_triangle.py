@@ -20,4 +20,5 @@ def pascal_triangle(n):
                 inner.append(val)
                 count += 1
         pc.append(inner)
+
     return pc
