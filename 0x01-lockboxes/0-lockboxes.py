@@ -24,5 +24,5 @@ def canUnlockAll(boxes):
     keys.add(0)
     for box in boxes:
         if boxes.index(box) in keys:
-            final_list.append(box)  
+            final_list.append(box)
     return len(final_list) == len(boxes)
