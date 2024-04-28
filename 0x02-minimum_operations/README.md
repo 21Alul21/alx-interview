@@ -1,0 +1,1 @@
+Minimum operators task solution
